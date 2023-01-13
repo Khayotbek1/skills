@@ -1,0 +1,6 @@
+.btn{
+    @include font(1.6rem, 2.8rem, $white, 'Plus Jakarta Sans', 700);
+    background: $dark-blue;
+    border-radius: 28px;
+    padding: 10px 24px;
+}

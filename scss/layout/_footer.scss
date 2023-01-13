@@ -1,0 +1,16 @@
+.footer{
+    padding-top: 1.6rem;
+    background: $dark-blue;
+    &__container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .site-logo{
+        @include font(2.8rem, 3.5rem, $white);
+    }
+    &__btn:hover{
+        background: $hero-color;
+    }
+    
+}

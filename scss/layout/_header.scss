@@ -1,0 +1,16 @@
+.header{
+    margin-bottom: 2.8rem;
+    padding-top: 1.6rem;
+    &__container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .site-logo{
+        @include font(2.8rem, 3.5rem);
+    }
+    &__btn:hover{
+        background: $hero-color;
+    }
+    
+}

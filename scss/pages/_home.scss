@@ -1,0 +1,136 @@
+.hero{
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__title{
+        @include font(4rem, 5rem);
+        margin-bottom: 2.6rem;
+    }
+    &__desc{
+        @include font(1.6rem, 2.6rem, $gray, 'Plus Jakarta Sans', 500);
+        margin-bottom: 2.4rem;
+        
+    }
+    &__btn{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 31.5px;
+        margin-bottom: 4.6rem;
+    }
+    &__btn:hover{
+        opacity: .6;
+    }
+    
+    &__media{
+        width: 100%;
+        max-width: 327px;
+        position: relative;
+        margin-bottom: 6.6rem;
+    }
+
+    &__media--members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 105px;
+        height: 100px;
+        box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+        border-radius: 10px;
+        background-color: $white;
+        text-align: center;
+        position: absolute;
+        top: -15%;
+        right: 0;
+        }
+
+        &__media--course{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 150px;
+            height: 100px;
+            box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+            border-radius: 10px;
+            background-color: $white;
+            text-align: left;
+            position: absolute;
+            bottom: -10%;
+            left: 0;
+            h2{
+                margin-left: 2rem;
+            }
+            p{
+                margin-left: 2rem;
+            }
+        }
+        
+        &__img{
+            background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+            border-radius: 50%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        &__media--desc{
+            @include font(1.4rem, 2.8rem, $gray, 'Plus Jakarta Sans', 700);
+        }
+        &__media--num{
+            @include font(3.2rem, 4rem);
+            
+        }
+}    
+
+
+
+// COURSES SECTION
+
+.courses{
+   
+
+    &__list{
+        display: grid;
+        grid-template-columns: auto-fill(343px, 1);
+        row-gap: 1.6rem;
+        margin-bottom: 8rem;
+    }
+
+    &__item:first-child{
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 10px;
+    }
+
+    &__title{
+        @include font(2.4rem, 3.2rem, $white);
+        padding: 2.4rem 0 3.2rem 2.8rem;
+    }
+
+    &__info{
+        padding-left: 2.8rem;
+        padding-bottom: 3.2rem;
+    }
+
+    &__img{
+        margin-bottom: 2.4rem;
+    }
+
+    &__subtitle{
+        @include font(2rem, 2.5rem);
+        margin-bottom: 1.6rem;
+    }
+    &__desc{
+        @include font(1.6rem, 2.6rem, $gray, 'Plus Jakarta Sans', 500);
+        margin-bottom: 2.4rem;
+    }
+    &__link{
+        @include font(1.8rem, 2.8rem, $magenta, 'Plus Jakarta Sans', 700);
+        display: inline-block;
+    }
+    &__link:hover{
+        color: $pink;
+    }
+
+
+}
+        
+    

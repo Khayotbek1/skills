@@ -1,5 +1,7 @@
 .footer{
-    padding-top: 1.6rem;
+    &__container{
+        padding: 3.6rem 0;
+    }
     background: $dark-blue;
     &__container{
        display: flex;
@@ -8,6 +10,10 @@
     }
     .site-logo{
         @include font(2.8rem, 3.5rem, $white);
+    }
+    &__btn{
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        border-radius: 28px;
     }
     &__btn:hover{
         background: $hero-color;

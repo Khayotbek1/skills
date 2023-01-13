@@ -396,8 +396,10 @@ body {
 }
 
 .footer {
-  padding-top: 1.6rem;
   background: #13183f;
+}
+.footer__container {
+  padding: 3.6rem 0;
 }
 .footer__container {
   display: flex;
@@ -410,6 +412,10 @@ body {
   font-family: "Plus Jakarta Sans";
   line-height: 3.5rem;
   color: #fff;
+}
+.footer__btn {
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+  border-radius: 28px;
 }
 .footer__btn:hover {
   background: #666ca3;

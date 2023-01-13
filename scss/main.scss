@@ -6,14 +6,14 @@
 
 @import 'base/reset';
 @import 'base/typography';
+@import 'components/buttons';
+@import 'components/dropdown';
 
 @import 'layout/navigation';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/forms';
 
-@import 'components/buttons';
-@import 'components/dropdown';
 
 @import 'pages/home';
 @import 'pages/contact';

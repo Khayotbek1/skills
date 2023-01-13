@@ -375,6 +375,17 @@ body {
   padding-right: 16px;
 }
 
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans";
+  line-height: 2.8rem;
+  color: #fff;
+  background: #13183f;
+  border-radius: 28px;
+  padding: 10px 24px;
+}
+
 .header {
   margin-bottom: 2.8rem;
   padding-top: 1.6rem;
@@ -419,17 +430,6 @@ body {
 }
 .footer__btn:hover {
   background: #666ca3;
-}
-
-.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: "Plus Jakarta Sans";
-  line-height: 2.8rem;
-  color: #fff;
-  background: #13183f;
-  border-radius: 28px;
-  padding: 10px 24px;
 }
 
 .hero__container {
